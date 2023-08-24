@@ -2,6 +2,8 @@ package etc.abstract_method;
 
 public class AnimalExample {
     public static void main(String[] args) {
+//        Animal animal1 = new Animal(); // abstract 추상화 클래스는 인스턴스화 불가능
+
         Dog dog = new Dog();
         Cat cat = new Cat();
 
