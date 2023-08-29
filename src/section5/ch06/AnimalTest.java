@@ -56,12 +56,12 @@ public class AnimalTest {
         Animal hAnimal = new Human();
         Animal tAnimal = new Tiger();
         Animal eAnimal = new Eagle();
-
-        moveAnimal(hAnimal); // [2] 다형성이 지켜짐.
-        moveAnimal(tAnimal);
-        moveAnimal(eAnimal);
-
-        System.out.println();
+//
+//        moveAnimal(hAnimal); // [2] 다형성이 지켜짐.
+//        moveAnimal(tAnimal);
+//        moveAnimal(eAnimal);
+//
+//        System.out.println();
 
         ArrayList<Animal> animalList = new ArrayList<>();
         animalList.add(hAnimal);
