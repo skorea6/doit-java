@@ -8,7 +8,7 @@ public class ComputerTest {
         desktop.display();
         desktop.turnOff();
 
-        NoteBook noteBook = new MyNoteBook();
+        Computer noteBook = new MyNoteBook();
         noteBook.display();
         noteBook.typing();
     }
